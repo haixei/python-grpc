@@ -1,8 +1,8 @@
 # gRPC Overview in Python
-This repository contains a simple example of a gRPC implementation. For more information about this project in particular visit this article (Basics of gRPC with Python) or the technology's website.
+This repository contains a simple example of a gRPC implementation. For more information about this project in particular visit the gRPC's website.
 
 ## About the example
-In this repository you will find some auto-generated files as well as our client, server and most importantly - the proto file. This simple example shows how to create routes for a café's menu and how to use them.
+ I divided the projects into sub-folders in case I will do more tests later, so far the repository consists of the "basics" and the "café". The first one was following the example from the documentation, the latter is an expanded version of it that I build while trying out the features. Both are a unary RPC. In their folders you will find some auto-generated files as well as our client, server and most importantly - the proto file.
 
 ## Run the project
 To run the project you need to make sure that you have installed the required packages, all defined in the requirements.txt file.
@@ -13,11 +13,12 @@ To run the project you need to make sure that you have installed the required pa
    
 2. Next, you will need two terminals, one for the server and another one for the client. Then run:
    ```shell
-    pip cafe_server.py
+    pip <project name>_server.py
     ```
    ```shell
-    pip cafe_client.py
+    pip <project name>_client.py
     ```
+
 
 
 ### Useful resources
