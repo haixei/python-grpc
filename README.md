@@ -6,7 +6,8 @@ This repository contains a simple example of a gRPC implementation. For more inf
  I divided the projects into sub-folders in case I will do more tests later, so far the repository consists of the "basics" and the "café". The first one was following the example from the documentation, the latter is an expanded version of it that I build while trying out the features. Both are a unary RPC. In their folders you will find some auto-generated files as well as our client, server and most importantly - the proto file.
 
 ## Run the project
-To run the project you need to make sure that you have installed the required packages, all defined in the requirements.txt file.
+To run the project you need to make sure that you have installed the required packages, all defined in the requirements.txt file. Make sure that you have installed [pip](https://pypi.org/project/pip/) beforehand.
+
 1. Start with:
     ```shell
     pip install -r requirements.txt
