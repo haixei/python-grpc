@@ -16,6 +16,10 @@ service Menu {
   rpc SpecialOfTheDay (Weekday) returns (SpecialDrink) {}
 }
 
+service Business {
+  rpc OpeningHours (Weekday) returns (HoursInfo) {}
+}
+
 message ClientRequest {
   string product = 1;
 }
@@ -38,4 +42,8 @@ message ProductInfo {
 message SpecialDrink{
   string product = 1;
   float special_price = 2;
+}
+
+message HoursInfo{
+  string opens_at = 1;
 }

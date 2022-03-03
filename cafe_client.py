@@ -14,8 +14,8 @@ def run():
     # used in circumstances in which the with statement does not fit the needs
     # of the code.
     with grpc.insecure_channel('localhost:50051') as channel:
-        stub = cafe_pb2_grpc.MenuStub(channel)
-        response = stub.SpecialOfTheDay(cafe_pb2.Weekday(weekday=1))
+        stub = cafe_pb2_grpc.BusinessStub(channel)
+        response = stub.OpeningHours(cafe_pb2.Weekday(weekday=1))
     print(response)
 
 
