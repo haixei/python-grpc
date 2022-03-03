@@ -1,3 +1,4 @@
+![Status: Finished](https://img.shields.io/badge/Status-Finished-%235d6d91)
 # gRPC Overview in Python
 This repository contains a simple example of a gRPC implementation. For more information about this project in particular visit the gRPC's website.
 
@@ -13,10 +14,10 @@ To run the project you need to make sure that you have installed the required pa
    
 2. Next, you will need two terminals, one for the server and another one for the client. Then run:
    ```shell
-    pip <project name>_server.py
+    python <project name>_server.py
     ```
    ```shell
-    pip <project name>_client.py
+    python <project name>_client.py
     ```
 
 
